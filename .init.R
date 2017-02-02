@@ -4,7 +4,7 @@
 # ====================================================================
 
 # Create a local copy of myScript.R if required, and not been done yet.
-if (! file.exists("myScript.R" && file.exists(".tmp.R"))) {
+if (! file.exists("myScript.R") && file.exists(".tmp.R")) {
     file.copy(".tmp.R", "myScript.R")
 }
 
